@@ -6,7 +6,6 @@ import axios from "axios";
 import Table from "./components/Table";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
-import _ from "lodash";
 
 type scanRecord = {
   Location: string;

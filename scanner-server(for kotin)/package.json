@@ -1,0 +1,24 @@
+{
+  "name": "scanner-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.5",
+    "node-rfc": "^3.3.1",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
